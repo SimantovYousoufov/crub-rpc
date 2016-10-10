@@ -1,0 +1,220 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Starbucks",
+      "latitude": 45.042000,
+      "longitude": -75.005454
+    },
+    {
+      "id": "2",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Oslo",
+      "latitude": 40.714650,
+      "longitude": -73.956670
+    },
+    {
+      "id": "3",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "PB Teashop",
+      "latitude": 40.714260,
+      "longitude": -73.961200
+    },
+    {
+      "id": "4",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Devocion",
+      "latitude": 40.716060,
+      "longitude": -73.964720
+    },
+    {
+      "id": "5",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Gimme! Coffee",
+      "latitude": 40.715440,
+      "longitude": -73.955730
+    },
+    {
+      "id": "6",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Lion\\'s Milk",
+      "latitude": 40.714800,
+      "longitude": -73.959740
+    },
+    {
+      "id": "7",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "House of Small Wonder",
+      "latitude": 40.718970,
+      "longitude": -73.960830
+    },
+    {
+      "id": "8",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Momo Fuku",
+      "latitude": 40.712850,
+      "longitude": -73.955550
+    },
+    {
+      "id": "9",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Starbucks",
+      "latitude": 40.717890,
+      "longitude": -73.959270
+    },
+    {
+      "id": "10",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Blue Bottle",
+      "latitude": 40.717440,
+      "longitude": -73.960700
+    },
+    {
+      "id": "11",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Konditori",
+      "latitude": 40.717740,
+      "longitude": -73.957310
+    },
+    {
+      "id": "12",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Sweetleaf",
+      "latitude": 40.719410,
+      "longitude": -73.962240
+    },
+    {
+      "id": "13",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Parlor Coffee",
+      "latitude": 40.713930,
+      "longitude": -73.956290
+    },
+    {
+      "id": "14",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Abracadabra",
+      "latitude": 40.712080,
+      "longitude": -73.962630
+    },
+    {
+      "id": "15",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "New York Muffin",
+      "latitude": 40.717330,
+      "longitude": -73.958310
+    },
+    {
+      "id": "16",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Margo\\'s",
+      "latitude": 40.714370,
+      "longitude": -73.959040
+    },
+    {
+      "id": "17",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Patisserie Tomoko",
+      "latitude": 40.717610,
+      "longitude": -73.951920
+    },
+    {
+      "id": "18",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Juice Generation",
+      "latitude": 40.717010,
+      "longitude": -73.958810
+    },
+    {
+      "id": "19",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Daily Press",
+      "latitude": 40.710583,
+      "longitude": -73.957821
+    },
+    {
+      "id": "20",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Otha\\'s",
+      "latitude": 40.708560,
+      "longitude": -73.957920
+    },
+    {
+      "id": "21",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Re.Union",
+      "latitude": 40.716990,
+      "longitude": -73.951840
+    },
+    {
+      "id": "22",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Black Brick",
+      "latitude": 40.714140,
+      "longitude": -73.961540
+    },
+    {
+      "id": "23",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Freehold",
+      "latitude": 40.713690,
+      "longitude": -73.965770
+    },
+    {
+      "id": "24",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Dunkin\\' Donuts",
+      "latitude": 40.708580,
+      "longitude": -73.958990
+    },
+    {
+      "id": "25",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "Porto Rico Importing Company",
+      "latitude": 40.711180,
+      "longitude": -73.946663
+    },
+    {
+      "id": "26",
+      "created_at": "2016-02-25 19:55:34",
+      "updated_at": "2016-02-25 19:55:34",
+      "label": "The Bean",
+      "latitude": 40.720240,
+      "longitude": -73.954620
+    },
+    {
+      "id": "27",
+      "created_at": "2016-03-11 16:03:54",
+      "updated_at": "2016-03-11 16:03:54",
+      "label": "Odd Fellows",
+      "latitude": 40.718143,
+      "longitude": -73.963638
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.fuzzproductions.crubclub";
+option java_outer_classname = "CrubClubRPC";
+option objc_class_prefix = "RTG";
+
+package crubrpc;
+
+// Interface exported by the server.
+service Crub {
+    // A simple RPC.
+    rpc GetLocation (Point) returns (Location) {
+    }
+    rpc GetLatestRun (Date) returns (Run) {
+    }
+
+    // A server-to-client streaming RPC.
+    rpc ListLocations (Point) returns (stream Location) {
+    }
+    rpc ListRuns (Date) returns (stream Run) {
+    }
+}
+
+message Location {
+    string label = 1;
+
+    Point point = 2;
+}
+
+message Run {
+    Location location = 1;
+
+    Date created_at = 2;
+    Date updated_at = 3;
+    Date datetime = 4;
+    string event_id = 5;
+}
+
+message Date {
+    // As 2016-06-08 13:03:05
+    string date = 1;
+}
+
+message Point {
+    float latitude = 1;
+    float longitude = 2;
+}
