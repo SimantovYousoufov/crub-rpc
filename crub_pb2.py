@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='crub.proto',
   package='crubrpc',
   syntax='proto3',
-  serialized_pb=_b('\n\ncrub.proto\x12\x07\x63rubrpc\"8\n\x08Location\x12\r\n\x05label\x18\x01 \x01(\t\x12\x1d\n\x05point\x18\x02 \x01(\x0b\x32\x0e.crubrpc.Point\"\xa3\x01\n\x03Run\x12#\n\x08location\x18\x01 \x01(\x0b\x32\x11.crubrpc.Location\x12!\n\ncreated_at\x18\x02 \x01(\x0b\x32\r.crubrpc.Date\x12!\n\nupdated_at\x18\x03 \x01(\x0b\x32\r.crubrpc.Date\x12\x1f\n\x08\x64\x61tetime\x18\x04 \x01(\x0b\x32\r.crubrpc.Date\x12\x10\n\x08\x65vent_id\x18\x05 \x01(\t\"\x14\n\x04\x44\x61te\x12\x0c\n\x04\x64\x61te\x18\x01 \x01(\t\"9\n\x05Point\x12\x10\n\x08latitude\x18\x01 \x01(\x02\x12\x11\n\tlongitude\x18\x02 \x01(\x02\x12\x0b\n\x03\x66oo\x18\x03 \x01(\t2\xce\x01\n\x04\x43rub\x12\x32\n\x0bGetLocation\x12\x0e.crubrpc.Point\x1a\x11.crubrpc.Location\"\x00\x12-\n\x0cGetLatestRun\x12\r.crubrpc.Date\x1a\x0c.crubrpc.Run\"\x00\x12\x36\n\rListLocations\x12\x0e.crubrpc.Point\x1a\x11.crubrpc.Location\"\x00\x30\x01\x12+\n\x08ListRuns\x12\r.crubrpc.Date\x1a\x0c.crubrpc.Run\"\x00\x30\x01\x42\x33\n\x1c\x63om.fuzzproductions.crubclubB\x0b\x43rubClubRPCP\x01\xa2\x02\x03RTGb\x06proto3')
+  serialized_pb=_b('\n\ncrub.proto\x12\x07\x63rubrpc\"E\n\x08Location\x12\r\n\x05label\x18\x01 \x01(\t\x12\x1d\n\x05point\x18\x02 \x01(\x0b\x32\x0e.crubrpc.Point\x12\x0b\n\x03\x66oo\x18\x03 \x01(\t\"\xa3\x01\n\x03Run\x12#\n\x08location\x18\x01 \x01(\x0b\x32\x11.crubrpc.Location\x12!\n\ncreated_at\x18\x02 \x01(\x0b\x32\r.crubrpc.Date\x12!\n\nupdated_at\x18\x03 \x01(\x0b\x32\r.crubrpc.Date\x12\x1f\n\x08\x64\x61tetime\x18\x04 \x01(\x0b\x32\r.crubrpc.Date\x12\x10\n\x08\x65vent_id\x18\x05 \x01(\t\"\x14\n\x04\x44\x61te\x12\x0c\n\x04\x64\x61te\x18\x01 \x01(\t\",\n\x05Point\x12\x10\n\x08latitude\x18\x01 \x01(\x02\x12\x11\n\tlongitude\x18\x02 \x01(\x02\x32\xce\x01\n\x04\x43rub\x12\x32\n\x0bGetLocation\x12\x0e.crubrpc.Point\x1a\x11.crubrpc.Location\"\x00\x12-\n\x0cGetLatestRun\x12\r.crubrpc.Date\x1a\x0c.crubrpc.Run\"\x00\x12\x36\n\rListLocations\x12\x0e.crubrpc.Point\x1a\x11.crubrpc.Location\"\x00\x30\x01\x12+\n\x08ListRuns\x12\r.crubrpc.Date\x1a\x0c.crubrpc.Run\"\x00\x30\x01\x42\x33\n\x1c\x63om.fuzzproductions.crubclubB\x0b\x43rubClubRPCP\x01\xa2\x02\x03RTGb\x06proto3')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -47,6 +47,13 @@ _LOCATION = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
+    _descriptor.FieldDescriptor(
+      name='foo', full_name='crubrpc.Location.foo', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
   ],
   extensions=[
   ],
@@ -60,7 +67,7 @@ _LOCATION = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=23,
-  serialized_end=79,
+  serialized_end=92,
 )
 
 
@@ -118,8 +125,8 @@ _RUN = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=82,
-  serialized_end=245,
+  serialized_start=95,
+  serialized_end=258,
 )
 
 
@@ -149,8 +156,8 @@ _DATE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=247,
-  serialized_end=267,
+  serialized_start=260,
+  serialized_end=280,
 )
 
 
@@ -175,13 +182,6 @@ _POINT = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
-    _descriptor.FieldDescriptor(
-      name='foo', full_name='crubrpc.Point.foo', index=2,
-      number=3, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
   ],
   extensions=[
   ],
@@ -194,7 +194,7 @@ _POINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=269,
+  serialized_start=282,
   serialized_end=326,
 )
 

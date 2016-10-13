@@ -6,6 +6,9 @@ Optionally you can follow the gRPC [gRPC python quickstart guide](http://www.grp
 - grpcio: `sudo python -m pip install grpcio`
 - grpc-tools: `python -m pip install grpcio-tools`
 
+## Crub Proto
+Located in `./protos/crub.proto`
+
 ## Code Generation
 `python run_codegen.py`
 

@@ -7,25 +7,12 @@ option objc_class_prefix = "RTG";
 
 package crubrpc;
 
-// Interface exported by the server.
-service Crub {
-    // A simple RPC.
-    rpc GetLocation (Point) returns (Location) {
-    }
-    rpc GetLatestRun (Date) returns (Run) {
-    }
-
-    // A server-to-client streaming RPC.
-    rpc ListLocations (Point) returns (stream Location) {
-    }
-    rpc ListRuns (Date) returns (stream Run) {
-    }
-}
-
 message Location {
     string label = 1;
 
     Point point = 2;
+
+    string foo = 3;
 }
 
 message Run {
@@ -46,3 +33,17 @@ message Point {
     float latitude = 1;
     float longitude = 2;
 }
+
+// Interface exported by the server.
+service Crub {
+    // A simple RPC.
+    rpc GetLocation (Point) returns (Location) {}
+
+    rpc GetLatestRun (Date) returns (Run) {}
+
+    // A server-to-client streaming RPC.
+    rpc ListLocations (Point) returns (stream Location) {}
+
+    rpc ListRuns (Date) returns (stream Run) {}
+}
+

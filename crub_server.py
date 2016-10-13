@@ -1,10 +1,7 @@
 from concurrent import futures
 import time
-
 import grpc
 import json
-
-from models.models import Location, Point
 import crub_pb2
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
@@ -23,9 +20,10 @@ class Crub(crub_pb2.CrubServicer):
 			data = json.load(data_file)
 
 		for location in data['locations']:
+			# Fake a slow streamed query
 			time.sleep(3)
 			point = crub_pb2.Point(latitude=location['latitude'], longitude=location['longitude'])
-			yield crub_pb2.Location(label=location['label'], point=point)
+			yield crub_pb2.Location(label=location['label'], point=point, foo='bar')
 
 
 def serve():

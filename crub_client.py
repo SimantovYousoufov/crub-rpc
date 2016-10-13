@@ -5,7 +5,6 @@ import json
 from pprint import pprint as pp
 from datetime import datetime
 
-from models.models import Location, Point
 import crub_pb2
 
 
